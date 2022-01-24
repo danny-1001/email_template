@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+}
+
+table {
+  margin: 0;
+}
+
+td {
+  border-spacing: 0;
+}
+
+img {
+  border: 0;
+}
+.wrapper {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  table-layout: fixed;
+  background-color: aqua;
+  padding: 0 0 6rem 0;
+}
+.main {
+  width: 100%;
+  max-width: 60rem;
+  background-color: azure;
+}
+.first_border {
+  height: 0.8rem;
+  background-color: black;
+}
