@@ -70,8 +70,7 @@
       vertical-align: top;
     }
     h3 {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      font-family: fantasy;
       font-size: 28px;
     }
     .button {
@@ -82,6 +81,41 @@
       font-weight: bold;
       border-radius: 5px;
     }
+    h4{
+      font-family: fantasy;
+      font-size: 22px;
+    }
+    .three-columns{
+      font-size: 0;
+      padding: 35px 0 20px;
+    }
+    .three-columns .column{
+      width: 100%;
+      max-width: 200px;
+      display: inline-block;
+      vertical-align: top;
+    }
+    .three-columns .padding{
+    padding: 25px;
+    }
+    .three-columns .content{
+    font-size: 15px;
+    line-height: 20px;
+    } 
+
+    .two-columns .last{
+      text-align: left;
+      padding:  35px 0;
+    }
+    .two-columns .padding{
+      padding: 20px;
+    }
+    .two-columns .content{
+      font-size: 15px;
+      line-height: 20px;
+
+    }
+  
   </style>
 
   <body>
@@ -186,14 +220,165 @@
         <!-- Services section -->
         <tr>
           <td>
-            <table>
-              
+            <table width="100%">
+              <tr>
+                <td class="three-columns">
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr style="text-align: center">
+                            <td>
+                              <a href="#"
+                                ><img src="/img/design.png" alt="" width="150"
+                              /></a>
+                            </td>
+                            <tr >
+                              <td style="padding: 5px 0 10px; text-align: center;">
+                                <h4>Email Design</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, eius!</p>
+                              </td>
+                            </tr>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+
+
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr style="text-align: center">
+                            <td>
+                              <a href="#"
+                                ><img src="/img/development.png" alt="" width="150"
+                              /></a>
+                            </td>
+                            <tr >
+                              <td style="padding: 5px 0 10px; text-align: center;">
+                                <h4>Development</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, eius!</p>
+                              </td>
+                            </tr>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr style="text-align: center">
+                            <td>
+                              <a href="#"
+                                ><img src="/img/marketing.png" alt="" width="150"
+                              /></a>
+                            </td>
+                            <tr>
+                              <td style="padding: 5px 0 10px; text-align: center;">
+                                <h4>Marketing</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, eius!</p>
+                              </td>
+                            </tr>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
             </table>
           </td>
         </tr>
         <!-- border -->
+        <tr>
+          <td height="2" style="background-color: black" class="border"></td>
+        </tr>
         <!-- two-column secton -->
+        <tr>
+          <td>
+            <table width="100%">
+
+              <tr>
+                <td class="two-columns last">
+                   <table class="column">
+                     <tr>
+                       <td class="padding">
+                         <table class="content">
+                           <tr>
+                             <td>
+                               <a href="#"><img src="img/palette.png" alt="" width="260"></a>
+                             </td>
+                           </tr>
+                         </table>
+                       </td>
+                     </tr>
+                   </table>
+
+                   <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <h4>Create Custom</h4>
+                              <p style="padding-bottom: 50px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat harum fugiat voluptatum rerum non aut perferendis in culpa delectus magni!</p>
+                              <a href="#" class="button" >HTML Email Course</a>
+                            </td>
+
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              
+            </table>
+          </td>
+        </tr>
         <!-- Footer -->
+        <tr>
+          <td style="background-color: gray; color: white;">
+            <table width='100%'>
+              <tr>
+                <td style="padding: 45px 20px; text-align: center;">
+                  <a href=""><img src="/img/logo.png" alt="" width="260"></a>
+                  <p style="padding: 5px 0 3px;">SAILCHIM HTML EMAIL TEMP</p>
+                  <p style="padding: 5px 0 3px;">55 Road Ave NY</p>
+                  <a href="#"
+                    ><img src="img/facebook.png" alt="" class="social"
+                  /></a>
+                  
+
+                  <a href="#"
+                    ><img src="img/twitter.png" alt="" class="social"
+                  /></a>
+                  <a href="#"
+                    ><img src="img/youtube.png" alt="" class="social"
+                  /></a>
+                  <a href="#"
+                    ><img src="img/linkedin.png" alt="" class="social"
+                  /></a>
+                  <a href="#"
+                    ><img src="img/instagram.png" alt="" class="social"
+                  /></a>
+
+                  <a href="#">
+                    <p>Subscribe</p>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td height="10" style="background-color: black" class="border"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
       </table>
     </center>
   </body>
