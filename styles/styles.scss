@@ -9,35 +9,30 @@ html {
 }
 
 body {
-  margin: 0;
+  border-spacing: 0;
 }
 
 table {
-  margin: 0;
+  border-spacing: 0;
 }
 
 td {
-  border-spacing: 0;
+  padding: 0;
 }
 
 img {
   border: 0;
 }
 .wrapper {
-  text-align: center;
-  justify-content: center;
-  align-items: center;
   width: 100%;
   table-layout: fixed;
-  background-color: aqua;
-  padding: 0 0 6rem 0;
+  background-color: rgb(0, 0, 0);
 }
 .main {
   width: 100%;
-  max-width: 60rem;
-  background-color: azure;
-}
-.first_border {
-  height: 0.8rem;
-  background-color: black;
+  table-layout: fixed;
+  background-color: blueviolet;
+  font-family: sans-serif;
+  color: gray;
+  box-shadow: 0 0 25px rgba(0, 0, 0 0.15);
 }

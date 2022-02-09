@@ -45,8 +45,15 @@ img {
   background-color: azure;
 }
 
-.first_border {
+.border {
   height: 0.8rem;
   background-color: black;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=styles.css.map */
